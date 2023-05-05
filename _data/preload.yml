@@ -1,4 +1,9 @@
 images:
+- added: '2023-05-05 16:34:55.998663'
+  iiif: true
+  thumbnail: ''
+  title: ''
+  url: https://raw.githubusercontent.com/JoshuaAPhillips/digital-anon/main/manifests/m1-8-1-manifest.json
 - iiif: true
   thumbnail: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/full/120,/0/default.jpg
   title: ''
