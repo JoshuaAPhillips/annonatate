@@ -1,0 +1,33 @@
+---
+canvas: "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-6/info.json"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "m1-8-1-6-003",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JoshuaAPhillips",
+                "name": "Joshua Phillips"
+            },
+            "created": "2023-05-05T16:46:12.475Z",
+            "modified": "2023-05-05T16:46:22.537Z"
+        }
+    ],
+    "target": {
+        "source": "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-6/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"402.6470031738281,1701.692626953125 844.4247436523438,1614.5814208984375 787.0422877609532,1323.5707363386123 345.26454728243755,1410.6819423932998\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "55bbe123-2000-44bf-ae1e-1049e948f989.json",
+    "motivation": "commenting"
+}
