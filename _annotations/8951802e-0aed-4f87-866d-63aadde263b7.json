@@ -3,44 +3,28 @@ canvas: "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/ii
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "purpose": "geotagging",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16,
-                    48
-                ]
-            },
-            "creator": {
-                "id": "JoshuaAPhillips",
-                "name": "Joshua Phillips"
-            },
-            "created": "2023-05-05T16:35:19.090Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "001",
-            "purpose": "commenting",
-            "creator": {
-                "id": "JoshuaAPhillips",
-                "name": "Joshua Phillips"
-            },
             "created": "2023-05-05T16:35:25.633Z",
-            "modified": "2023-05-05T16:35:27.661Z"
+            "creator": {
+                "id": "JoshuaAPhillips",
+                "name": "Joshua Phillips"
+            },
+            "modified": "2023-05-05T16:35:27.661Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "001"
         }
     ],
+    "id": "8951802e-0aed-4f87-866d-63aadde263b7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-1/info.json",
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"730.7589721679688,194.2645721435547 756.6609497070312,1298.3348388671875 2524.468505859375,1078.1683349609375 2404.672119140625,174.83811950683594 2401.434326171875,171.60037231445312\"></polygon></svg>"
-        }
+        },
+        "source": "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-1/info.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8951802e-0aed-4f87-866d-63aadde263b7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
