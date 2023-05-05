@@ -1,0 +1,31 @@
+---
+canvas: "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-6/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "m1-8-1-5-001",
+            "purpose": "commenting",
+            "creator": {
+                "id": "JoshuaAPhillips",
+                "name": "Joshua Phillips"
+            },
+            "created": "2023-05-05T16:42:20.405Z",
+            "modified": "2023-05-05T16:42:24.256Z"
+        }
+    ],
+    "target": {
+        "source": "https://llkn576nqxepo6yucgfh2nl2ea0kkigc.lambda-url.eu-west-2.on.aws/iiif/2/m1-8-1/m1-8-1-6/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=792.72216796875,152.44444274902344,650.2222900390625,152.44444274902344"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1ff5d804-b303-462f-9e84-169db3db1a60.json",
+    "motivation": "commenting"
+}
